@@ -1049,8 +1049,7 @@ document.querySelectorAll('.menu-btn').forEach(btn => {
     btn.classList.remove('inactive-menu-btn');
 
     // Scroll to the top of the section (first menu item)
-    section.scrollIntoView({ behavior: "smooth", block: "start" });
-  });
+window.scrollTo({ top: 0, behavior: "smooth" });  });
 });
 
 // Set all buttons except the first as inactive on page load
